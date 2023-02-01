@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 400px;
+background: url(./pictures/Обложка.avif) bottom no-repeat;
+background-size: cover;
+}
+    .transparent-text {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 50px;
+        text-transform: uppercase;
+        background: #02fd0a;
+        display: table;
+        margin: 20px auto;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        mix-blend-mode: multiply;
+        padding: 5px 10px;
+      }
+
+
+      footer {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        text-align: center;
+      }
+
+      footer .links {
+        margin-bottom: 50px;
+    }
+
+    footer .links > a {
+        color: black;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .copyright {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.news {
+    background-color: aqua;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768ps;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rosybrown;
+}
+
+article .New::before {
+    content: 'New';
+    color: red;
+    font-style: italic;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+    article:nth-child(even) {
+        background: rgb(244, 249, 249); /* Цвет фона */
+        color: rgb(0, 4, 130); /* Цвет текста */
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+article a:hover {
+    color: blueviolet;
+}
+
+article h2 {
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: darkolivegreen;
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 70%;
+    height: 100%;
+    object-fit:cover;
+    display:block;
+    margin:auto;
+}
